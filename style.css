@@ -17,7 +17,6 @@ notebook/pc:
 }
 */
 
-
 body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
@@ -28,13 +27,56 @@ body {
     font-size: 14px;
     color: silver;
 }
-
 .paticka a {
     color: silver;
 }
-
-
+.recept {
+    padding:10px;
+    color: #fff;
+    font-family: Raleway, sans-serif;
+    text-shadow: 0 0 4px rgba(0,0,0,0,8);
+    background-size: cover;
+    background-position: center;
+}
 /* ------------------------------- */
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
-
+.recept-nazev {
+    font-weight: 800;
+    font-size: 18px;
+}
+.recept-hlavni {
+    font-size: 28px;
+    min-height: 200px;
+}
+.recept-ostatni {
+    min-height: 90px;
+}
+.recept-komentare {
+    font-size: 14px;
+    font-weight: 400;
+}
+.recept1 {
+    background-image: url("images/burger.jpg");
+}
+.recept2 {
+    background-image: url("images/sushi.jpg");
+}
+.recept3 {
+    background-image: url("images/kure.jpg");
+}
+.recept4 {
+    background-image: url("images/rajcata.jpg");
+}
+.recept5 {
+    background-image: url("images/grilovani.jpg");
+}
+@media (min-width: 400px) {
+    .recept-hlavni {
+        width: 100%;
+    }
+    .recept {
+        width: 50%;
+        float: left;
+    }
+}
